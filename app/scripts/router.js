@@ -5,8 +5,6 @@ var _ = require('underscore');
 var Backbone = require('backbone');
 require('backbone-react-component');
 
-
-
 var Router = Backbone.Router.extend({
   routes: {
     "": "index",
